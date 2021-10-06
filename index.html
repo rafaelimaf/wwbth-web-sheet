@@ -13,14 +13,37 @@
     <h3 id="subtitle">Ficha de Herói</h3>
   </header>
   <main>
-    <div id="disc-div">
-      <form action="GET" class="disc-form">
+    <div id="div1">
+      <form action="GET" class="hero-form" id="disc-form">
+        <h3 class="f-title">Ficha Descritiva</h3>
         <p class="inp-title">Nome:</p>
         <input type="text" placeholder="Nome + Sobrenome" class="disc-item" id="df-name" required>
         <p class="inp-title">Ocupação:</p>
         <input type="text" placeholder="Cargo ocupado pelo personagem" class="disc-item" id="df-office" required>
         <p class="inp-title">Idade:</p>
         <input type="number" placeholder="Idade do personagem" class="disc-item" id="df-age" required>
+        <p class="inp-title">Nascimento:</p>
+        <input type="text" placeholder="DD/MM/AAAA" class="disc-item" id="df-born" required>
+        <p class="inp-title">Gênero:</p>
+        <select name="gender" class="disc-item" id="df-gender">
+          <option value="Masculino">Masculino</option>
+          <option value="Feminino">Feminino</option>
+        </select>
+        <p class="inp-title">Local de Nascimento:</p>
+        <input type="text" placeholder="Cidade + Estado" class="disc-item" id="df-bornplace" required>
+        <p class="inp-title">Local de Residencia:</p>
+        <input type="text" placeholder="Cidade + Estado" class="disc-item" id="df-liveplace" required>
+        <p class="inp-title">Parentesco:</p>
+        <input type="text" placeholder="Nome + Sobrenome" class="disc-item" id="df-kinship" required>
+        <p class="inp-title">Pessoas Importantes:</p>
+        <input type="text" placeholder="João, Maria..." class="disc-item" id="df-relperson" required>
+        <p class="inp-title">Locais Importantes:</p>
+        <input type="text" placeholder="Orfanato, Hospital..." class="disc-item" id="df-relplace" required>
+        <p class="inp-title">Objetos Importantes:</p>
+        <input type="text" placeholder="Colar, Chapéu..." class="disc-item" id="df-relobj" required>
+      </form>
+      <form action="GET" class="hero-form" id="vital-atb">
+        <h3 class="f-title">Atributos Vitais</h3>
       </form>
     </div>
   </main>

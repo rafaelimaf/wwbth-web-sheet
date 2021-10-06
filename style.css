@@ -22,13 +22,38 @@ body {
   margin-bottom: 75px;
 }
 
-.disc-form {
-  border: 1px solid white;
+#div1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#disc-form {
+  /* border: 1px solid white; */
   display: flex;
   justify-content: left;
   flex-direction: column;
   color: white;
   font: bold;
+  overflow-y: scroll;
+  height: 400px;
+  width: 300px;
+  margin-left: 125px;
+}
+
+#disc-form::-webkit-scrollbar {
+  background-color: black;
+  border: 1px solid white;
+}
+
+#disc-form::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.f-title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 
 .inp-title {
@@ -44,6 +69,15 @@ body {
   background-color: black;
   color: white;
   width: 250px;
-  height: 30px;
+  height: 40px;
   margin: 10px;
+}
+
+#vital-atb {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  color: white;
+  font: bold;
+  margin-left: 125px;
 }
