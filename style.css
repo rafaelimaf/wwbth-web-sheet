@@ -29,15 +29,15 @@ body {
 
 #disc-form {
   /* border: 1px solid white; */
-  display: flex;
+  /* display: flex; */
   justify-content: left;
   flex-direction: column;
   color: white;
   font: bold;
   overflow-y: scroll;
-  height: 400px;
+  height: 470px;
   width: 300px;
-  margin-left: 125px;
+  margin-left: 190px;
 }
 
 #disc-form::-webkit-scrollbar {
@@ -54,6 +54,11 @@ body {
   color: white;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+#df-title {
+  margin-bottom: 60px;
 }
 
 .inp-title {
@@ -69,15 +74,48 @@ body {
   background-color: black;
   color: white;
   width: 250px;
-  height: 40px;
+  height: 35px;
   margin: 10px;
 }
 
 #vital-atb {
-  display: flex;
+  /* display: flex; */
   justify-content: left;
   flex-direction: column;
   color: white;
   font: bold;
-  margin-left: 125px;
+  margin-left: 50px;
+}
+
+.va-item {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: white;
+  width: 250px;
+  height: 35px;
+  margin: 10px;
+}
+
+#person-atb {
+  display: flex;
+  flex-direction: row;
+}
+
+#hero-img {
+  background-color: black;
+  border: 1px solid white;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  margin-top: 55px;
+}
+
+#hero-atb {
+  margin-left: 50px;
+}
+
+#va-life, #va-armor {
+  width: 460px;
+  margin-left: 10px;
 }

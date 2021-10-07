@@ -17,7 +17,7 @@
     <div id="div1">
       <!-- Ficha Descritiva -->
       <form action="GET" class="hero-form" id="disc-form">
-        <h3 class="f-title">Ficha Descritiva</h3>
+        <h3 class="f-title" id="df-title">Ficha Descritiva</h3>
         <p class="inp-title">Nome:</p>
         <input type="text" placeholder="Nome + Sobrenome" class="disc-item" id="df-name" required>
         <p class="inp-title">Ocupação:</p>
@@ -46,7 +46,32 @@
       </form>
       <!-- Atributos Vitais -->
       <form action="GET" class="hero-form" id="vital-atb">
-        <h3 class="f-title">Atributos Vitais</h3>
+        <h3 class="f-title" id="va-title">Atributos Vitais</h3>
+        <!-- Atributos Pessoais -->
+        <div id="person-atb">
+          <div id="hero-img"></div>
+          <div id="hero-atb">
+          <p class="inp-title">Nome do Herói:</p>
+          <input type="text" placeholder="Nome do Herói" class="va-item" id="va-heroname" required>
+          <p class="inp-title">Nome do Jogador:</p>
+          <input type="text" placeholder="Nome do Jogador" class="va-item" id="va-playername" required>
+          <p class="inp-title">Arquétipo:</p>
+          <select class="va-item" name="Arquétipo" id="va-arq">
+            <option value="Tático">Tático</option>
+            <option value="Detonador">Detonador</option>
+            <option value="Brutamonte">Brutamonte</option>
+            <option value="Briguento">Briguento</option>
+            <option value="Infiltrador">Infiltrador</option>
+          </select>
+        </div>
+      </div>
+        <!-- Vida, Armadura e Carga -->
+        <form action="GET" class="hero-form" id="life-armor">
+          <p class="inp-title">Vida:</p>
+          <input type="range" min="0" max="50" value="50" id="va-life">
+          <p class="inp-title">Armadura</p>
+          <input type="range" min="0" max="50" value="50" id="va-armor">
+        </form>
       </form>
     </div>
   </main>
