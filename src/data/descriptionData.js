@@ -66,6 +66,12 @@ const descriptionItemData =
     sample: '',
     inputName: 'userFavPlaces'
   },
+  {
+    category: 'Conflitos:',
+    type: 'text',
+    sample: '',
+    inputName: 'userConflicts'
+  },
 ]
 
 export default descriptionItemData;

@@ -17,6 +17,7 @@ export default class DescriptionSheet extends Component {
       userFavPeople: '',
       userFavObjects: '',
       userFavPlaces: '',
+      userConflicts: ''
     }
   }
 
