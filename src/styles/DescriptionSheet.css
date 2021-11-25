@@ -6,28 +6,34 @@
   height: 28rem;
   overflow-y: scroll;
   padding: 2rem;
-  width: 20rem;
+  width: 25rem;
 }
 
 .description-sheet-title {
   color: white;
+  display: flex;
+  flex-flow: row;
+  font-family: ubuntu , -apple-system , Roboto;
+  justify-content: center;
 }
 
 .category-title {
   color: white;
+  font-family: ubuntu , -apple-system , Roboto;
+  font-size: 1rem;
 }
 
 .category-input {
   background-color: #121212;
   border: 0.1rem solid white;
   color: white;
-  font-family: ubuntu;
-  font-size: 1rem;
+  font-family: ubuntu , -apple-system , Roboto;
+  font-size: 0.8rem;
   font-weight: bold;
   height: 1rem;
   outline: none;
   padding: 1rem;
-  width: 15rem;
+  width: 20rem;
 }
 
 ::-webkit-scrollbar {
