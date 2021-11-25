@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <header class="wwbth-sheet-header">
         <h1 className="header-title">WWBTH | Ficha de Personagem</h1>
-        <h3 className="header-subtitle">All Rights Reserved to Rafael de Lima</h3>
+        <h3 className="header-subtitle">{`All Rights Reserved to Rafael de Lima | Copia não comédia :]`}</h3>
       </header>
     )
   }
