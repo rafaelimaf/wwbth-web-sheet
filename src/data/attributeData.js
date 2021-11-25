@@ -1,22 +1,22 @@
 const attributeSheetData =
 [
   {
-    atribute: 'FOR',
+    attribute: 'FOR',
   },
   {
-    atribute: 'VON',
+    attribute: 'VON',
   },
   {
-    atribute: 'DES',
+    attribute: 'DES',
   },
   {
-    atribute: 'AGI',
+    attribute: 'AGI',
   },
   {
-    atribute: 'PRE',
+    attribute: 'PRE',
   },
   {
-    atribute: 'INT',
+    attribute: 'INT',
   }
 ]
 

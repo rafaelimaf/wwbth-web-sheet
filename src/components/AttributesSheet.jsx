@@ -44,7 +44,7 @@ export default class AttributeSheet extends Component {
             data={ item }
             key={ index }
             changeState={ this.handleChanger }
-            itemValue={this.state[item.atribute]}
+            itemValue={this.state[item.attribute]}
           />
         ))}
       </div>
