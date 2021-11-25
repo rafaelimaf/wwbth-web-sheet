@@ -25,7 +25,9 @@
 
 .category-input {
   background-color: #121212;
-  border: 0.1rem solid white;
+  border-radius: 0.3rem;
+  border-style: none;
+  box-shadow: 0 0.4rem 0.3rem 0 #000000;
   color: white;
   font-family: ubuntu , -apple-system , Roboto;
   font-size: 0.8rem;
@@ -36,11 +38,26 @@
   width: 20rem;
 }
 
-::-webkit-scrollbar {
-  width: 1rem;
+.category-input:hover {
+  cursor: pointer;
+  transition: ease 0.1s;
+  background-color: #0a0a0a;
 }
 
-::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
-  border: 0.1rem solid white;
-  border-radius: 0.2rem;
+::-webkit-scrollbar {
+  background-color: #000000;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #121212; 
+  border-radius: 10px;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
