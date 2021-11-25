@@ -8,16 +8,16 @@ export default class Attribute extends Component {
   }
 
   render() {
-    const { data: { atribute }, changeState, itemValue } = this.props;
+    const { data: { attribute }, changeState, itemValue } = this.props;
     return (
       <div className="attributes-sheet-item">
-        <h3 className="attribute-title">{atribute}</h3>
+        <h3 className="attribute-title">{attribute}</h3>
         <input
           id="attribute-value"
           className="attribute-input"
           type="number"
           onChange={ changeState }
-          name={ atribute }
+          name={ attribute }
           value={ itemValue }
         />
       </div>
