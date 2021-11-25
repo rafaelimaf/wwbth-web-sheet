@@ -1,0 +1,11 @@
+.wwbth-sheet-header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 4.5rem 0;
+  color: white;
+}
+
+.header-subtitle {
+  font-size: 0.8rem;
+}
