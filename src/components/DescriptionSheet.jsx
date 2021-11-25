@@ -28,19 +28,19 @@ export default class DescriptionSheet extends Component {
 
   componentDidUpdate() {
     localStorage.setItem('Description Data', JSON.stringify(this.state));
-    console.log(this.state);
-  }
-
-  handleChanger = ({ target: { value, name } }) => {
-    this.setState({
-      [name]: value
-    })
   }
 
   renderRecoveredData = () => {
     const recoveredData = JSON.parse(localStorage.getItem('Description Data'));
     this.setState({...recoveredData})
   }
+  
+  handleChanger = ({ target: { value, name } }) => {
+    this.setState({
+      [name]: value
+    })
+  }
+
 
   render() {
     return (
