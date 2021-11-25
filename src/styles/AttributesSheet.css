@@ -1,0 +1,65 @@
+.attributes-sheet {
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a0a;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem 1rem;
+  width: 25rem;
+}
+
+.attributes-sheet-title {
+  color: white;
+  font-family: ubuntu , -apple-system , Roboto;
+}
+
+.attributes-sheet-items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.attributes-sheet-item {
+  display: flex;
+  flex-flow: column;
+}
+
+.attribute-title {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-family: ubuntu , -apple-system , Roboto;
+}
+
+.attribute-input {
+  background-color: #121212;
+  border-radius: 0.3rem;
+  border-style: none;
+  box-shadow: 0 0.4rem 0.3rem 0 #000000;
+  color: white;
+  font-family: ubuntu , -apple-system , Roboto;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3rem;
+  outline: none;
+  text-align: center;
+  width: 7rem;
+}
+
+.attribute-input:hover {
+  cursor: pointer;
+  transition: ease 0.1s;
+  background-color: #0a0a0a;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

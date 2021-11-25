@@ -36,7 +36,9 @@ export default class AttributeSheet extends Component {
 
   render() {
     return (
-      <div>
+      <div className="attributes-sheet">
+      <h2 className="attributes-sheet-title">Atributos Básicos</h2>
+      <div className="attributes-sheet-items">
         {attributeSheetData.map((item, index) => (
           <AtributeItem
             data={ item }
@@ -45,6 +47,7 @@ export default class AttributeSheet extends Component {
             itemValue={this.state[item.atribute]}
           />
         ))}
+      </div>
       </div>
     )
   }

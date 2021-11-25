@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import '../styles/AttributesSheet.css'
 
 export default class Attribute extends Component {
   isAttributeNegativo = () => {
@@ -9,20 +10,16 @@ export default class Attribute extends Component {
   render() {
     const { data: { atribute }, changeState, itemValue } = this.props;
     return (
-      <div>
-        <label>
-          <h3>{atribute}</h3>
-          <input
-            type="number"
-            onChange={ changeState }
-            name={ atribute }
-            value={ itemValue }
-          />
-          <input
-            type="number"
-            value={ itemValue * 2 }
-          />
-        </label>
+      <div className="attributes-sheet-item">
+        <h3 className="attribute-title">{atribute}</h3>
+        <input
+          id="attribute-value"
+          className="attribute-input"
+          type="number"
+          onChange={ changeState }
+          name={ atribute }
+          value={ itemValue }
+        />
       </div>
     )
   }
