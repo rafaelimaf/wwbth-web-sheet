@@ -11,7 +11,7 @@
 
 .attributes-sheet-title {
   color: white;
-  font-family: ubuntu , -apple-system , Roboto;
+  font-family: Ubuntu , -apple-system , comic-sans;
 }
 
 .attributes-sheet-items {
@@ -29,7 +29,7 @@
   color: white;
   text-align: center;
   font-size: 1rem;
-  font-family: ubuntu , -apple-system , Roboto;
+  font-family: Ubuntu , -apple-system , comic-sans;
 }
 
 .attribute-input {
@@ -38,7 +38,7 @@
   border-style: none;
   box-shadow: 0 0.4rem 0.3rem 0 #000000;
   color: white;
-  font-family: ubuntu , -apple-system , Roboto;
+  font-family: Ubuntu , -apple-system , comic-sans;
   font-size: 1rem;
   font-weight: bold;
   height: 3rem;

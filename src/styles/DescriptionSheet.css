@@ -13,13 +13,13 @@
   color: white;
   display: flex;
   flex-flow: row;
-  font-family: ubuntu , -apple-system , Roboto;
+  font-family: Ubuntu , -apple-system , comic-sans;
   justify-content: center;
 }
 
 .category-title {
   color: white;
-  font-family: ubuntu , -apple-system , Roboto;
+  font-family: Ubuntu , -apple-system , comic-sans;
   font-size: 1rem;
 }
 
@@ -29,7 +29,7 @@
   border-style: none;
   box-shadow: 0 0.4rem 0.3rem 0 #000000;
   color: white;
-  font-family: ubuntu , -apple-system , Roboto;
+  font-family: Ubuntu , -apple-system , comic-sans;
   font-size: 0.8rem;
   font-weight: bold;
   height: 1rem;
