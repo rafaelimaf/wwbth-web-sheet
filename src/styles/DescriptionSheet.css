@@ -6,6 +6,7 @@
   overflow-y: scroll;
   padding: 2rem;
   width: 23rem;
+  margin-right: 1rem;
 }
 
 .description-sheet-title {
@@ -44,7 +45,7 @@
 }
 
 ::-webkit-scrollbar {
-  background-color: #000000;
+  background-color: #0a0a0a;
 }
 
 ::-webkit-scrollbar-track {
@@ -52,7 +53,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #121212; 
+  background: #010101; 
   border-radius: 0.2rem;
 }
 
