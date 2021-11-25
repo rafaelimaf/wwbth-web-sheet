@@ -1,0 +1,14 @@
+.wwbth-footer {
+  display: flex;
+  flex-flow: row;
+  height: 5rem;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #0a0a0a;
+}
+
+.footer-link-github {
+  color: white;
+  font-size: 1rem;
+  padding: 1rem;
+}
