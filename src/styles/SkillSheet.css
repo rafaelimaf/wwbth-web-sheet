@@ -1,0 +1,82 @@
+.skill-sheet {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: #0a0a0a;
+  height: 12rem;
+  margin: 1rem 4rem;
+}
+
+.skill-sheet-title {
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+  font-weight: bold;
+}
+
+.skill-items {
+  display: flex;
+  flex-flow: row;
+  width: 65rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.skill-categories {
+  display: flex;
+  flex-flow: row;
+}
+
+.skill-inputs {
+  background-color: #121212;
+  box-shadow: 0 0.4rem 0.2rem 0 #000000;
+  border: none;
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  height: 3rem;
+  outline: none;
+  width: 9.3rem;
+}
+
+.skill-inputs:hover {
+  cursor: pointer;
+  transition: ease 0.5s;
+  background-color: #0a0a0a;
+}
+
+.remove-skill-btn {
+  background-color: #470c0c;
+  border: none;
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.remove-skill-btn:hover {
+  cursor: pointer;
+  transition: ease 0.5s;
+  background-color: #2c0707;
+}
+
+.add-skill-btn {
+  background-color: #3a0937;
+  border: none;
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.add-skill-btn:hover {
+  cursor: pointer;
+  transition: ease 0.5s;
+  background-color: #290626;
+}
