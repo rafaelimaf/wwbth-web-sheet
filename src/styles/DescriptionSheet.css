@@ -1,0 +1,40 @@
+.description-sheet {
+  background-color: #0a0a0a;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-flow: column;
+  height: 28rem;
+  overflow-y: scroll;
+  padding: 2rem;
+  width: 20rem;
+}
+
+.description-sheet-title {
+  color: white;
+}
+
+.category-title {
+  color: white;
+}
+
+.category-input {
+  background-color: #121212;
+  border: 0.1rem solid white;
+  color: white;
+  font-family: ubuntu;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 1rem;
+  outline: none;
+  padding: 1rem;
+  width: 15rem;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+  border: 0.1rem solid white;
+  border-radius: 0.2rem;
+}

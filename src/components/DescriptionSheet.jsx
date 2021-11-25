@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import DescriptionItem from './DescriptionItem'
 import descriptionItemData from '../data/descriptionData'
+import '../styles/DescriptionSheet.css'
 
 export default class DescriptionSheet extends Component {
   constructor() {
@@ -43,16 +44,16 @@ export default class DescriptionSheet extends Component {
 
   render() {
     return (
-      <div>
-        <h2>Ficha Descritiva</h2>
+      <div className="description-sheet">
+      <h2 className="description-sheet-title">Ficha Descritiva</h2>
         {descriptionItemData.map((item, index) => (
           <DescriptionItem
-            data={item}
-            key={index}
-            changeState={this.handleChanger}
-            itemValue={this.state[item.inputName]}
+          data={item}
+          key={index}
+          changeState={this.handleChanger}
+          itemValue={this.state[item.inputName]}
           />
-        ))}
+          ))}
       </div>
     )
   }
