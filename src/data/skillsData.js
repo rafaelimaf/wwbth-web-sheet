@@ -9,8 +9,8 @@ const skillsSheetData =
   },
   {
     category: 'Pericia',
-    throwCategories: 'Combate à Distância',
-    unarmedCategories: 'Combate Corpo à Corpo',
+    throwCategories: 'Combate à Dist',
+    unarmedCategories: 'Combate CàC',
     parryCategories: 'Aparar',
     treatmentCategories: 'Tratamento'
   },
