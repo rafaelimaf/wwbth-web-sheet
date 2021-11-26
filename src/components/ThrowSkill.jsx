@@ -16,6 +16,25 @@ export default class ThrowSkillItem extends Component {
     }
   }
 
+  componentDidMount() {
+    this.renderRecoveredData()
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem('Throw Reaction Data', JSON.stringify(this.state));
+  }
+
+  renderRecoveredData = () => {
+    const recoveredData = JSON.parse(localStorage.getItem('Throw Reaction Data'));
+    this.setState({...recoveredData})
+  }
+
+  handleChanger = ({ target: { value, name } }) => {
+    this.setState({
+      [name]: value,
+    })
+  }
+
   render() {
     return (
       <div className="skill-item">
@@ -24,7 +43,9 @@ export default class ThrowSkillItem extends Component {
             type="text"
             key={ index }
             placeholder={ item.throwCategories }
-            name={ item.category }
+            name={ item.throwCategories }
+            value={this.state[item.throwCategories]}
+            onChange={this.handleChanger}
             className="skill-input"
           />
         ))}

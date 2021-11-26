@@ -16,6 +16,25 @@ export default class UnharmedSkillSkillItem extends Component {
     }
   }
 
+  componentDidMount() {
+    this.renderRecoveredData()
+  }
+
+  componentDidUpdate() {
+    localStorage.setItem('Unharmed Reaction Data', JSON.stringify(this.state));
+  }
+
+  renderRecoveredData = () => {
+    const recoveredData = JSON.parse(localStorage.getItem('Unharmed Reaction Data'));
+    this.setState({...recoveredData})
+  }
+
+  handleChanger = ({ target: { value, name } }) => {
+    this.setState({
+      [name]: value,
+    })
+  }
+
   render() {
     return (
       <div className="skill-item">
@@ -24,8 +43,10 @@ export default class UnharmedSkillSkillItem extends Component {
             type="text"
             key={ index }
             placeholder={ item.unarmedCategories }
-            name={ item.category }
+            name={ item.unarmedCategories }
             className="skill-input"
+            onChange={this.handleChanger}
+            value={ this.state[item.unarmedCategories] }
           />
         ))}
       </div>

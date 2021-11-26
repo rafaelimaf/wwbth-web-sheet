@@ -8,6 +8,8 @@ import ThrowSkillItem from './ThrowSkill';
 import UnharmedSkillSkillItem from './UnharmedSkill';
 import '../styles/SkillSheet.css'
 import TreatmentSkillItem from './TreatmentSkill.jsx';
+import FirstReactionItem from './FirstReactionItem';
+import SecondReactionItem from './SecondReactionItem';
 
 export default class SkillSheet extends Component {
   
@@ -22,16 +24,20 @@ export default class SkillSheet extends Component {
       <div className="skill-items">
         <div className="char-skills">
         <h2 className="skills-title">Poderes Habilidades e Equipamentos</h2>
-          <h3 className="made-skills-title">Habilidades Criadas</h3>
+          <h3 className="made-skills-title">Habilidades de Ação</h3>
           <FirstSkillItem />
           <SecondSkillItem />
           <ThirdSkillItem />
           <FourthSkillItem />
-        </div>
-        <div className="default-skills">
-          <h3 className="default-skills-title">Habilidades Padrão</h3>
+          <br />
           <ThrowSkillItem />
           <UnharmedSkillSkillItem />
+        </div>
+        <div className="default-skills">
+          <h3 className="default-skills-title">Habilidades de Reação</h3>
+          <FirstReactionItem />
+          <SecondReactionItem />
+          <br />
           <ParrySkillItem />
           <TreatmentSkillItem />
         </div>

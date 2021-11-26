@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import skillsSheetData from '../data/skillsData'
 import '../styles/SkillItem.css'
 
-export default class TreatmentSkillItem extends Component {
+export default class SecondReactionItem extends Component {
   constructor() {
     super()
     this.state = {
@@ -21,11 +21,11 @@ export default class TreatmentSkillItem extends Component {
   }
 
   componentDidUpdate() {
-    localStorage.setItem('Treatment Reaction Data', JSON.stringify(this.state));
+    localStorage.setItem('Second Reaction Data', JSON.stringify(this.state));
   }
 
   renderRecoveredData = () => {
-    const recoveredData = JSON.parse(localStorage.getItem('Treatment Reaction Data'));
+    const recoveredData = JSON.parse(localStorage.getItem('Second Reaction Data'));
     this.setState({...recoveredData})
   }
 
@@ -42,10 +42,10 @@ export default class TreatmentSkillItem extends Component {
           <input 
             type="text"
             key={ index }
-            placeholder={ item.treatmentCategories }
-            name={ item.treatmentCategories }
+            placeholder={ item.category }
+            name={ item.category }
+            value={ this.state[item.category] }
             onChange={ this.handleChanger }
-            value={ this.state[item.treatmentCategories] }
             className="skill-input"
           />
         ))}
