@@ -10,7 +10,7 @@ const skillsSheetData =
   {
     category: 'Pericia',
     throwCategories: 'Combate à Dist',
-    unarmedCategories: 'Combate CàC',
+    unarmedCategories: 'Combate C à C',
     parryCategories: 'Aparar',
     treatmentCategories: 'Tratamento'
   },
