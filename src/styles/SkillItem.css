@@ -1,0 +1,10 @@
+.skill-item {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.skill-input {
+  width: 7rem;
+}

@@ -1,19 +1,19 @@
 import React, { Component } from 'react'
-import SkillInputs from './SkillInputs'
 import skillsSheetData from '../data/skillsData'
-import '../styles/SkillSheet.css'
+import '../styles/SkillItem.css'
 
 export default class SkillItem extends Component {
   constructor() {
     super()
     this.state = {
-      Descritivo: '',
+      Descritivo:'',
       Pericia: '',
       Modificadores: '',
       Custo: '',
       Teste: '',
       CD: '',
       Efeito: '',
+      skillNumber: 1,
     }
   }
 
@@ -22,31 +22,45 @@ export default class SkillItem extends Component {
   }
 
   componentDidUpdate() {
-    localStorage.setItem('Skills Data', JSON.stringify(this.state));
+    const { skillNumber } = this.state;
+    localStorage.setItem(`Skill Data ${skillNumber}`, JSON.stringify(this.state));
   }
 
   renderRecoveredData = () => {
-    const recoveredData = JSON.parse(localStorage.getItem('Skills Data'));
+    const { skillNumber } = this.state;
+    const recoveredData = JSON.parse(localStorage.getItem(`Skill Data ${skillNumber}`));
     this.setState({...recoveredData})
   }
-  
+
   handleChanger = ({ target: { value, name } }) => {
     this.setState({
-      [name]: value
+      [name]: value,
     })
+  }
+
+  onClickRemoveSkill = ({ target }) => {
+    target.parentElement.remove()
   }
 
   render() {
     return (
-      <div className="skill-categories">
+      <div className="skill-item">
+        <button
+          onClick={ this.onClickRemoveSkill }
+        >
+          -
+        </button>
         {skillsSheetData.map((item, index) => (
-          <SkillInputs
-            data={ item }
+          <input 
+            type="text"
             key={ index }
-            changeState={this.handleChanger}
-            itemValue={this.state[item.category]}
+            placeholder={ item.category }
+            name={ item.category }
+            value={ this.state[item.category] }
+            onChange={ this.handleChanger }
+            className="skill-input"
           />
-          ))}
+        ))}
       </div>
     )
   }
