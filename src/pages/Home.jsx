@@ -5,8 +5,7 @@ import '../styles/Home.css'
 import VitalSheet from '../components/VitalSheet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import SkillItem from '../components/SkillItem'
-import SkillsSheet from '../components/SkillsSheet'
+import SkillItems from '../components/SkillItems'
 
 export default class Home extends Component {
 
@@ -29,9 +28,8 @@ export default class Home extends Component {
             <AttributesSheet />
           </div>
         </section>
-        <section className="skill-sheet">
-          <h2 className="skill-sheet-title">Poderes Habilidades e Equipamentos</h2>
-          <SkillsSheet />
+        <section className="second-sheets">
+          <SkillItems />
         </section>
         <Footer />
       </main>
