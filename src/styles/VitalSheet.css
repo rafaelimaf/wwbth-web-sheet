@@ -36,7 +36,7 @@
 
 .life-input, .armor-input {
   background-color: #121212;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   border-style: none;
   box-shadow: 0 0.4rem 0.3rem 0 #000000;
   color: white;
@@ -81,7 +81,7 @@
   display: flex;
   flex-flow: row;
   background-color: #0a0a0a;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   border-style: none;
   box-shadow: 0 0.4rem 0.3rem 0 #000000;
 }
@@ -96,7 +96,7 @@
 
 .action-input {
   background-color: #121212;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   border-style: none;
   color: white;
   font-family: Ubuntu , -apple-system , comic-sans;
@@ -130,7 +130,7 @@
 
 .inventory {
   background-color: #121212;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   border-style: none;
   box-shadow: 0 0.4rem 0.3rem 0 #000000;
   color: white;
@@ -165,7 +165,7 @@
 
 .conditions {
   background-color: #121212;
-  border-radius: 0.3rem;
+  border-radius: 0.1rem;
   border-style: none;
   box-shadow: 0 0.4rem 0.3rem 0 #000000;
   color: white;

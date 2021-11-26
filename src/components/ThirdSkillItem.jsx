@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import skillsSheetData from '../data/skillsData'
 import '../styles/SkillItem.css'
 
-export default class SkillItem extends Component {
+export default class ThirdSkillItem extends Component {
   constructor() {
     super()
     this.state = {
@@ -13,7 +13,6 @@ export default class SkillItem extends Component {
       Teste: '',
       CD: '',
       Efeito: '',
-      skillNumber: 1,
     }
   }
 
@@ -22,13 +21,11 @@ export default class SkillItem extends Component {
   }
 
   componentDidUpdate() {
-    const { skillNumber } = this.state;
-    localStorage.setItem(`Skill Data ${skillNumber}`, JSON.stringify(this.state));
+    localStorage.setItem('Third Skill Data', JSON.stringify(this.state));
   }
 
   renderRecoveredData = () => {
-    const { skillNumber } = this.state;
-    const recoveredData = JSON.parse(localStorage.getItem(`Skill Data ${skillNumber}`));
+    const recoveredData = JSON.parse(localStorage.getItem('Third Skill Data'));
     this.setState({...recoveredData})
   }
 
@@ -38,18 +35,9 @@ export default class SkillItem extends Component {
     })
   }
 
-  onClickRemoveSkill = ({ target }) => {
-    target.parentElement.remove()
-  }
-
   render() {
     return (
       <div className="skill-item">
-        <button
-          onClick={ this.onClickRemoveSkill }
-        >
-          -
-        </button>
         {skillsSheetData.map((item, index) => (
           <input 
             type="text"

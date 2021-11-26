@@ -5,7 +5,7 @@ import '../styles/Home.css'
 import VitalSheet from '../components/VitalSheet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import SkillItems from '../components/SkillItems'
+import SkillSheet from '../components/SkillSheet'
 
 export default class Home extends Component {
 
@@ -29,7 +29,7 @@ export default class Home extends Component {
           </div>
         </section>
         <section className="second-sheets">
-          <SkillItems />
+          <SkillSheet />
         </section>
         <Footer />
       </main>
