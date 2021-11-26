@@ -2,9 +2,26 @@
   display: flex;
   flex-flow: row;
   justify-content: center;
-  margin: 1rem;
+  margin: 0.3rem;
 }
 
 .skill-input {
-  width: 7rem;
+  background-color: #121212;
+  border-color: 0.2rem solid black;
+  border-style: none;
+  box-shadow: 0 0.4rem 0.3rem 0 #000000;
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+  font-size: 0.8rem;
+  font-weight: bold;
+  height: 3rem;
+  outline: none;
+  text-align: center;
+  width: 9rem;
+}
+
+.skill-input:hover {
+  transition: ease 0.2s;
+  cursor: pointer;
+  background-color: #0a0a0a;
 }
