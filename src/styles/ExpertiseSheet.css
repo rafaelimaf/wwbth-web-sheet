@@ -1,0 +1,66 @@
+.expertise-sheet {
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a0a;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem 1rem;
+  width: 70rem;
+  margin-top: 1rem;
+}
+
+.expertise-sheet-title {
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+}
+
+.expertise-sheet-items {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  width: 65rem;
+}
+
+.expertise-sheet-item {
+  display: flex;
+  flex-flow: column;
+}
+
+.expertise-title {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Ubuntu , -apple-system , comic-sans;
+}
+
+.expertise-input {
+  background-color: #121212;
+  border-radius: 0.1rem;
+  border-style: none;
+  box-shadow: 0 0.4rem 0.3rem 0 #000000;
+  color: white;
+  font-family: Ubuntu , -apple-system , comic-sans;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 3rem;
+  outline: none;
+  text-align: center;
+  width: 30rem;
+}
+
+.expertise-input:hover {
+  cursor: pointer;
+  transition: ease 0.1s;
+  background-color: #0a0a0a;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

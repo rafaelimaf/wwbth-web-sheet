@@ -14,6 +14,9 @@ export default class VitalSheet extends Component {
       Armadura: '0/0',
       Iventario: '',
       Conditions: '',
+      Vantagens: '',
+      Talentos: '',
+      Mutacoes: '',
     }
   }
 
@@ -37,7 +40,15 @@ export default class VitalSheet extends Component {
   }
 
   render() {
-    const { Iventario, Vida, Armadura, Conditions } = this.state;
+    const {
+      Iventario,
+      Vida,
+      Armadura,
+      Conditions,
+      Vantagens,
+      Talentos,
+      Mutacoes
+    } = this.state;
     return (
       <div className="vital-sheet">
         <h2 className="vital-sheet-title">Atributos Vitais</h2>
@@ -101,6 +112,51 @@ export default class VitalSheet extends Component {
             placeholder="- Atordoado { X Rodadas }; "
           >
             { Iventario }
+          </textarea>
+        </div>
+        <h3 className="condition-title">Vantagens</h3>
+        <div className="condition-area">
+          <textarea
+            name='Conditions'
+            id=""
+            cols="30"
+            rows="5"
+            onChange={this.handleChanger}
+            value={ Vantagens }
+            className="conditions"
+            placeholder="- Vantagem:: Descrição; "
+          >
+            { Vantagens }
+          </textarea>
+        </div>
+        <h3 className="condition-title">Talentos</h3>
+        <div className="condition-area">
+          <textarea
+            name='Conditions'
+            id=""
+            cols="30"
+            rows="5"
+            onChange={this.handleChanger}
+            value={ Talentos }
+            className="conditions"
+            placeholder="- Talento:: Descrição; "
+          >
+            { Talentos }
+          </textarea>
+        </div>
+        <h3 className="condition-title">Mutações</h3>
+        <div className="condition-area">
+          <textarea
+            name='Conditions'
+            id=""
+            cols="30"
+            rows="5"
+            onChange={this.handleChanger}
+            value={ Mutacoes }
+            className="conditions"
+            placeholder="- Vantagem:: Descrição; "
+          >
+            { Mutacoes }
           </textarea>
         </div>
       </div>

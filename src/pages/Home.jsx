@@ -6,6 +6,7 @@ import VitalSheet from '../components/VitalSheet'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import SkillSheet from '../components/SkillSheet'
+import ExpertiseSheet from '../components/ExpertiseSheet'
 
 export default class Home extends Component {
 
@@ -30,6 +31,7 @@ export default class Home extends Component {
         </section>
         <section className="second-sheets">
           <SkillSheet />
+          <ExpertiseSheet />
         </section>
         <Footer />
       </main>
