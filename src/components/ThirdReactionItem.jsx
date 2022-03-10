@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import skillsSheetData from '../data/skillsData'
 import '../styles/SkillItem.css'
 
-export default class SecondReactionItem extends Component {
+export default class DodgeReactionItem extends Component {
   constructor() {
     super()
     this.state = {
@@ -21,11 +21,11 @@ export default class SecondReactionItem extends Component {
   }
 
   componentDidUpdate() {
-    localStorage.setItem('Third Reaction Data', JSON.stringify(this.state));
+    localStorage.setItem('Dodge Reaction Data', JSON.stringify(this.state));
   }
 
   renderRecoveredData = () => {
-    const recoveredData = JSON.parse(localStorage.getItem('Third Reaction Data'));
+    const recoveredData = JSON.parse(localStorage.getItem('Dodge Reaction Data'));
     this.setState({...recoveredData})
   }
 
@@ -42,7 +42,7 @@ export default class SecondReactionItem extends Component {
           <input 
             type="text"
             key={ index }
-            placeholder={ item.category }
+            placeholder={ item.dodgeCategories }
             name={ item.category }
             value={ this.state[item.category] }
             onChange={ this.handleChanger }

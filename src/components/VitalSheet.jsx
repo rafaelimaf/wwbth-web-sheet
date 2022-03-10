@@ -84,7 +84,7 @@ export default class VitalSheet extends Component {
             />
           ))}
         </section>
-        <h3 className="inventory-title">Iventário</h3>
+        <h3 className="inventory-title">Inventário</h3>
         <div className="inventory-area">
           <textarea
             name='Iventario'
@@ -117,7 +117,7 @@ export default class VitalSheet extends Component {
         <h3 className="condition-title">Vantagens</h3>
         <div className="condition-area">
           <textarea
-            name='Conditions'
+            name='Vantagens'
             id=""
             cols="30"
             rows="5"
@@ -132,7 +132,7 @@ export default class VitalSheet extends Component {
         <h3 className="condition-title">Talentos</h3>
         <div className="condition-area">
           <textarea
-            name='Conditions'
+            name='Talentos'
             id=""
             cols="30"
             rows="5"
@@ -147,14 +147,14 @@ export default class VitalSheet extends Component {
         <h3 className="condition-title">Mutações</h3>
         <div className="condition-area">
           <textarea
-            name='Conditions'
+            name='Mutacoes'
             id=""
             cols="30"
             rows="5"
             onChange={this.handleChanger}
             value={ Mutacoes }
             className="conditions"
-            placeholder="- Vantagem:: Descrição; "
+            placeholder="- Mutação:: Descrição; "
           >
             { Mutacoes }
           </textarea>

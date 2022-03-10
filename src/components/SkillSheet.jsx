@@ -10,6 +10,7 @@ import '../styles/SkillSheet.css'
 import TreatmentSkillItem from './TreatmentSkill.jsx';
 import FirstReactionItem from './FirstReactionItem';
 import SecondReactionItem from './SecondReactionItem';
+import ThirdReactionItem from './ThirdReactionItem';
 
 export default class SkillSheet extends Component {
   
@@ -39,6 +40,7 @@ export default class SkillSheet extends Component {
           <SecondReactionItem />
           <br />
           <ParrySkillItem />
+          <ThirdReactionItem />
           <TreatmentSkillItem />
         </div>
       </div>
