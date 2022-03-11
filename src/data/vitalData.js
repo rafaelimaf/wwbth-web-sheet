@@ -8,6 +8,9 @@ const vitalSheetData =
   },
   {
     attribute: 'Carga',
+  },
+  {
+    attribute: 'Iniciativa'
   }
 ]
 

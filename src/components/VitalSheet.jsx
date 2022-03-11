@@ -10,6 +10,7 @@ export default class VitalSheet extends Component {
       PA: '0/0',
       PM: '0/0',
       Carga: '0/0',
+      Iniciativa: '0',
       Vida: '0/0',
       Armadura: '0/0',
       Iventario: '',

@@ -73,13 +73,16 @@
 .action-attributes {
   display: flex;
   flex-flow: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 2rem;
+  margin-left: 1rem;
+  width: 38rem;
+  align-items: center;
 }
 
 .action-item {
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
   background-color: #0a0a0a;
   border-radius: 0.1rem;
   border-style: none;
@@ -105,7 +108,7 @@
   height: 3rem;
   outline: none;
   text-align: center;
-  width: 7.5rem;
+  width: 8rem;
 }
 
 .action-input:hover {
