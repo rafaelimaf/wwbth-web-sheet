@@ -1,6 +1,12 @@
 const descriptionItemData =
 [
   {
+    category: 'Apelido (NP):',
+    type: 'text',
+    sample: 'Apelido (NP)',
+    inputName: 'userNp',
+  },
+  {
     category: 'Nome:',
     type: 'text',
     sample: 'Nome + Sobrenome',

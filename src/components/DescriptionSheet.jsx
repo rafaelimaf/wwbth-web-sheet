@@ -7,6 +7,7 @@ export default class DescriptionSheet extends Component {
   constructor() {
     super()
     this.state = {
+      userNp: '',
       userName: '',
       userOcupation: '',
       userAge: '',

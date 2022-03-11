@@ -1,83 +1,83 @@
 const expertiseSheetData = [
   {
     name: 'cac',
-    attribute: 'Combate C a C'
-  },
-  {
-    name: 'cad',
-    attribute: 'Combate a Dist'
-  },
-  {
-    name: 'luta',
-    attribute: 'Luta'
-  },
-  {
-    name: 'furtividade',
-    attribute: 'Furtividade'
-  },
-  {
-    name: 'acrobacia',
-    attribute: 'Acrobacia'
-  },
-  {
-    name: 'indimidacao',
-    attribute: 'Intimidação'
-  },
-  {
-    name: 'persuasao',
-    attribute: 'Persuasão'
+    attribute: 'Combate C a C (FOR)'
   },
   {
     name: 'bloqueio',
-    attribute: 'Bloqueio'
+    attribute: 'Bloqueio (FOR)'
+  },
+  {
+    name: 'cad',
+    attribute: 'Combate a Dist (DES)'
   },
   {
     name: 'esquiva',
-    attribute: 'Esquiva'
+    attribute: 'Esquiva (AGI)'
+  },
+  {
+    name: 'luta',
+    attribute: 'Luta (FOR)'
   },
   {
     name: 'atletismo',
-    attribute: 'Atletismo'
+    attribute: 'Atletismo (VON)'
   },
   {
-    name: 'percepcao',
-    attribute: 'Percepção'
+    name: 'acrobacia',
+    attribute: 'Acrobacia (AGI)'
   },
   {
     name: 'pontaria',
-    attribute: 'Pontaria'
+    attribute: 'Pontaria (DES)'
+  },
+  {
+    name: 'furtividade',
+    attribute: 'Furtividade (AGI)'
+  },
+  {
+    name: 'percepcao',
+    attribute: 'Percepção (PRE)'
+  },
+  {
+    name: 'indimidacao',
+    attribute: 'Intimidação (PRE)'
   },
   {
     name: 'constituicao',
-    attribute: 'Constituição'
+    attribute: 'Constituição (VON)'
+  },
+  {
+    name: 'persuasao',
+    attribute: 'Persuasão (PRE)'
   },
   {
     name: 'intuicao',
-    attribute: 'Intuição'
+    attribute: 'Intuição (PRE)'
   },
   {
     name: 'tecnologia',
-    attribute: 'Tecnologia'
+    attribute: 'Tecnologia (INT)'
   },
   {
     name: 'investigacao',
-    attribute: 'Investigação'
+    attribute: 'Investigação (INT)'
   },
   {
     name: 'prestidigitacao',
-    attribute: 'Prestidigitação'
+    attribute: 'Prestidigitação (INT)'
   },
   {
     name: 'direcao',
-    attribute: 'Direção'
+    attribute: 'Direção (INT)'
   },
   {
     name: 'oficio',
-    attribute: 'Ofício'
+    attribute: 'Ofício (INT)'
   },
   {
     name: 'tratamento',
-    attribute: 'Tratamento'
+    attribute: 'Tratamento (INT)'
   }
 ]
 
