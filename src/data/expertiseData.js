@@ -74,6 +74,10 @@ const expertiseSheetData = [
   {
     name: 'oficio',
     attribute: 'Ofício'
+  },
+  {
+    name: 'tratamento',
+    attribute: 'Tratamento'
   }
 ]
 

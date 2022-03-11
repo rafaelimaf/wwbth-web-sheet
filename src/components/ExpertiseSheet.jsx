@@ -25,7 +25,8 @@ export default class ExpertiseSheet extends Component {
       investigacao: '',
       prestidigitacao: '',
       direcao: '',
-      oficio: ''
+      oficio: '',
+      tratamento: ''
     }
   }
 
