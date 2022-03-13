@@ -1,4 +1,4 @@
-#export-button {
+.export-button {
     width: 64px;
     height: 64px;
     border-color: transparent;
@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
 }
 
-#import-button {
+.import-button {
     width: 64px;
     height: 64px;
     border-color: transparent;
