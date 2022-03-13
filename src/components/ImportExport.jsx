@@ -34,7 +34,7 @@ export default class ImportExport extends Component {
                 <button 
                 type="button"
                 className="import-button"
-                onClick={ () => { document.getElementById('file-picker').click() } }/>
+                onClick={ () => { document.getElementsByClassName('file-picker').click() } }/>
                 <input 
                 type="file"
                 className="file-picker"

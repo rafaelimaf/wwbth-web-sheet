@@ -10,14 +10,6 @@ import ExpertiseSheet from '../components/ExpertiseSheet'
 
 export default class Home extends Component {
 
-  onClickAddSkillsSheet = () => {
-
-  }
-
-  onClickRemoveSkillsSheet = () => {
-
-  }
-
   render() {
     return (
       <main className="wwbth-sheets">
