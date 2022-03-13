@@ -34,10 +34,10 @@ export default class ImportExport extends Component {
                 <button 
                 type="button"
                 className="import-button"
-                onClick={ () => { document.getElementsByClassName('file-picker').click() } }/>
+                onClick={ () => { document.querySelector('.file-picker').click() } }/>
                 <input 
                 type="file"
-                className="file-picker"
+                className='file-picker'
                 accept="application/json"
                 multiple={ false }
                 onChange={ this.readImport } 
