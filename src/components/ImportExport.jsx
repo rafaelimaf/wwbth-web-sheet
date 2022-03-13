@@ -29,15 +29,15 @@ export default class ImportExport extends Component {
             <div className="top-menu">
                 <button 
                 type="button"
-                id="export-button"
+                className="export-button"
                 onClick={ this.downloadExport }/>
                 <button 
                 type="button"
-                id="import-button"
+                className="import-button"
                 onClick={ () => { document.getElementById('file-picker').click() } }/>
                 <input 
                 type="file"
-                id="file-picker"
+                className="file-picker"
                 accept="application/json"
                 multiple={ false }
                 onChange={ this.readImport } 
