@@ -1,0 +1,22 @@
+.export-button {
+    width: 64px;
+    height: 64px;
+    border-color: transparent;
+    margin: 0 auto;
+    background: url('/src/images/export.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.import-button {
+    width: 64px;
+    height: 64px;
+    border-color: transparent;
+    margin: 0 auto;
+    background: url('/src/images/import.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

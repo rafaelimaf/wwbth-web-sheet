@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ImportExport from './ImportExport'
 import '../styles/Header.css'
 
 export default class Header extends Component {
@@ -7,6 +8,7 @@ export default class Header extends Component {
       <header className="wwbth-sheet-header">
         <h1 className="header-title">WWBTH | Ficha de Personagem</h1>
         <h3 className="header-subtitle">{`All Rights Reserved to Rafael de Lima | Copia não comédia :]`}</h3>
+        <ImportExport />
       </header>
     )
   }
