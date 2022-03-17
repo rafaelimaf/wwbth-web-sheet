@@ -20,7 +20,7 @@ button:hover {
 .import-export-btn {
     display: flex;
     flex-flow: row;
-    justify-content: end;
+    justify-content: center;
     width: 100%;
     margin-right: 7rem;
 }
