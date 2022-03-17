@@ -30,7 +30,7 @@ const skillsSheetData =
     unarmedCategories: 'Dano',
     parryCategories: 'Aparar',
     dodgeCategories: '',
-    treatmentCategories: '3PA'
+    treatmentCategories: 'Cura'
   },
   {
     category: 'Nível',
@@ -46,7 +46,7 @@ const skillsSheetData =
     unarmedCategories: '3PA',
     parryCategories: '2PA',
     dodgeCategories: '2PA',
-    treatmentCategories: 'PA'
+    treatmentCategories: '3PA'
   },
   {
     category: 'Efeito',

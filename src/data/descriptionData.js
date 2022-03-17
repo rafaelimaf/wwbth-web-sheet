@@ -20,7 +20,7 @@ const descriptionItemData =
   },
   {
     category: 'Idade:',
-    type: 'number',
+    type: 'text',
     sample: '18',
     inputName: 'userAge'
   },
