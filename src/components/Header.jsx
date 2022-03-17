@@ -8,7 +8,9 @@ export default class Header extends Component {
       <header className="wwbth-sheet-header">
         <h1 className="header-title">WWBTH | Ficha de Personagem</h1>
         <h3 className="header-subtitle">{`All Rights Reserved to Rafael de Lima | Copia não comédia :]`}</h3>
-        <ImportExport />
+        <div className='import-export-btn'>
+          <ImportExport />
+        </div>
       </header>
     )
   }

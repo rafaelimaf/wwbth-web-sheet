@@ -12,17 +12,33 @@ const skillsSheetData =
     category: 'Pericia',
     throwCategories: 'Combate à Dist',
     unarmedCategories: 'Combate C à C',
-    parryCategories: 'Aparar',
-    dodgeCategories: 'Esquivar',
+    parryCategories: 'Bloqueio',
+    dodgeCategories: 'Esquiva',
     treatmentCategories: 'Tratamento'
   },
   {
+    category: 'Teste',
+    throwCategories: 'Teste',
+    unarmedCategories: 'Teste',
+    parryCategories: 'Teste',
+    dodgeCategories: 'Teste',
+    treatmentCategories: 'Teste'
+  },
+  {
     category: 'Modificadores',
-    throwCategories: 'Dano 1',
-    unarmedCategories: 'Dano 1',
-    parryCategories: 'Aparar 1',
-    dodgeCategories: 'Modificador',
-    treatmentCategories: 'Cura 1'
+    throwCategories: 'Dano, Alcance',
+    unarmedCategories: 'Dano',
+    parryCategories: 'Aparar',
+    dodgeCategories: '',
+    treatmentCategories: '3PA'
+  },
+  {
+    category: 'Nível',
+    throwCategories: '1',
+    unarmedCategories: '1',
+    parryCategories: 'Nível',
+    dodgeCategories: '',
+    treatmentCategories: 'Nível'
   },
   {
     category: 'Custo',
@@ -30,23 +46,7 @@ const skillsSheetData =
     unarmedCategories: '3PA',
     parryCategories: '2PA',
     dodgeCategories: '2PA',
-    treatmentCategories: '3PA'
-  },
-  {
-    category: 'Teste',
-    throwCategories: '1d20',
-    unarmedCategories: '1d20',
-    parryCategories: '1d20',
-    dodgeCategories: '1d20',
-    treatmentCategories: '1d20'
-  },
-  {
-    category: 'CD',
-    throwCategories: 'CD',
-    unarmedCategories: 'CD',
-    parryCategories: 'CD',
-    dodgeCategories: 'CD',
-    treatmentCategories: 'CD'
+    treatmentCategories: 'PA'
   },
   {
     category: 'Efeito',

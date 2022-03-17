@@ -29,12 +29,17 @@ export default class ImportExport extends Component {
             <div className="top-menu">
                 <button 
                 type="button"
-                className="export-button"
-                onClick={ this.downloadExport }/>
+                className="import-button"
+                onClick={ () => { document.querySelector('.file-picker').click() } }
+                >
+                  Import Data
+                </button>
                 <button 
                 type="button"
-                className="import-button"
-                onClick={ () => { document.querySelector('.file-picker').click() } }/>
+                className="export-button"
+                onClick={ this.downloadExport }>
+                  Export Data
+                </button>
                 <input 
                 type="file"
                 className='file-picker'

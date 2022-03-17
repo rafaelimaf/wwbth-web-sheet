@@ -1,22 +1,26 @@
-.export-button {
-    width: 64px;
-    height: 64px;
-    border-color: transparent;
-    margin: 0 auto;
-    background: url('/src/images/export.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+button {
+    background-color: #0a0a0a; /* Green */
+    border: none;
+    border-radius: 0.2rem;
+    color: white;
+    display: inline-block;
+    margin: 0 0.5rem;
+    margin-top: 6rem;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    text-decoration: none;
 }
 
-.import-button {
-    width: 64px;
-    height: 64px;
-    border-color: transparent;
-    margin: 0 auto;
-    background: url('/src/images/import.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+button:hover {
+    cursor: pointer;
+    background-color: #3a0937;
+    transition: 0.25s;
 }
 
+.import-export-btn {
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    width: 100%;
+    margin-right: 7rem;
+}

@@ -18,7 +18,7 @@ export default class ExpertiseItem extends Component {
           onChange={ changeState }
           name={ name }
           value={ itemValue }
-          placeholder='Xd20'
+          placeholder='+X'
         />
       </div>
     )

@@ -15,7 +15,7 @@ const descriptionItemData =
   {
     category: 'Ocupação:',
     type: 'text',
-    sample: '',
+    sample: 'Insurgente',
     inputName: 'userOcupation',
   },
   {
@@ -75,7 +75,7 @@ const descriptionItemData =
   {
     category: 'Conflitos:',
     type: 'text',
-    sample: '',
+    sample: 'Ler Capítulo 1: Criando um Personagem, Conflitos',
     inputName: 'userConflicts'
   },
 ]
