@@ -18,7 +18,7 @@ export default class ImportExport extends Component {
         let data = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(localStorage));
         let a = document.createElement('a');
         a.setAttribute("href",     data);
-        a.setAttribute("download", 'data' + ".json");
+        a.setAttribute("download", "data.json");
         document.body.appendChild(a);
         a.click();
         a.remove();
