@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wwbth-web-sheet/static/css/main.58cf2058.chunk.css",
+    "main.js": "/wwbth-web-sheet/static/js/main.ec603b32.chunk.js",
+    "main.js.map": "/wwbth-web-sheet/static/js/main.ec603b32.chunk.js.map",
+    "runtime-main.js": "/wwbth-web-sheet/static/js/runtime-main.2dc2708b.js",
+    "runtime-main.js.map": "/wwbth-web-sheet/static/js/runtime-main.2dc2708b.js.map",
+    "static/js/2.7ebb3f3a.chunk.js": "/wwbth-web-sheet/static/js/2.7ebb3f3a.chunk.js",
+    "static/js/2.7ebb3f3a.chunk.js.map": "/wwbth-web-sheet/static/js/2.7ebb3f3a.chunk.js.map",
+    "index.html": "/wwbth-web-sheet/index.html",
+    "static/css/main.58cf2058.chunk.css.map": "/wwbth-web-sheet/static/css/main.58cf2058.chunk.css.map",
+    "static/js/2.7ebb3f3a.chunk.js.LICENSE.txt": "/wwbth-web-sheet/static/js/2.7ebb3f3a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dc2708b.js",
+    "static/js/2.7ebb3f3a.chunk.js",
+    "static/css/main.58cf2058.chunk.css",
+    "static/js/main.ec603b32.chunk.js"
+  ]
+}
